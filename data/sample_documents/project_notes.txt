@@ -1,0 +1,13 @@
+Project: AI Project Intelligence & Risk Advisor
+
+The project aims to analyze project documents and identify risks,
+blockers, action items, and possible delivery delays.
+
+Current Sprint Status:
+The document ingestion module is under development.
+
+Risk:
+There may be a delay if document processing is not completed on time.
+
+Action Item:
+Complete the document ingestion module and test all supported file types.
