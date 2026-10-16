@@ -118,3 +118,69 @@ Agent  Agent  Agent
         |
         v
 Project Intelligence
+
+
+
+## Milestone 3 – Documentation, Health Scoring & Conversational Intelligence
+
+Milestone 3 extends the project with actionable project intelligence and a user-facing interface.
+
+### Implemented Features
+
+- Documentation Generation Agent
+  - Generates User Stories
+  - Generates Risk Register
+  - Generates Action Items
+
+- Project Health Scoring
+  - Scope Clarity
+  - Timeline Risk
+  - Blocker Count
+  - Overall Project Health
+
+- Conversational Project Intelligence Assistant
+  - Answers project-related questions using uploaded documents
+  - Uses RAG-based retrieval
+  - Handles missing information without intentionally inventing project details
+
+- Multi-LLM Support
+  - Gemini
+  - Groq
+  - OpenRouter
+  - Automatic fallback when a provider is unavailable
+
+- Streamlit Application
+  - Document upload
+  - Documentation generation
+  - Project health analysis
+  - Conversational project assistant
+
+### Milestone 3 Validation
+
+The Milestone 3 components were tested using sample project documents.
+
+- Documentation Generation Agent – Passed
+- Project Health Scoring – Passed
+- Conversational Assistant – Passed
+- Multi-LLM fallback – Successfully validated
+- Streamlit integration – Verified
+
+
+---
+
+## Milestone 4 – System Integration, Validation & Final Project Delivery
+
+Milestone 4 focuses on integrating the modules developed in the previous milestones and preparing the AI-Driven Enterprise Project Intelligence & Risk Management Platform for final validation and delivery.
+
+### Key Activities
+
+- **System Integration:** Bringing document processing, retrieval, and multi-agent analysis together in the Streamlit application.
+- **Application Validation:** Checking document upload, processing, information retrieval, and analysis workflows.
+- **Project Intelligence:** Integrating project scope analysis, risk and delivery assessment, and blocker identification.
+- **Project Health and Documentation:** Validating project health scoring and automated documentation generation.
+- **Conversational Assistant:** Reviewing conversational assistance and configured LLM fallback support.
+- **Delivery Preparation:** Updating project documentation and reviewing dependencies and repository structure.
+
+### Milestone Documentation
+
+See [`MILESTONE_4.md`](MILESTONE_4.md) for the detailed milestone overview, objectives, integration areas, validation plan, and deliverables.

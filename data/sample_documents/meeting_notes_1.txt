@@ -1,0 +1,22 @@
+Project Meeting Notes – Week 1
+
+Project: AI Project Intelligence and Risk Advisor
+
+Objectives:
+- Develop a system to analyze project documents.
+- Identify project scope, deliverables, and milestones.
+- Detect delivery risks and project blockers.
+
+Progress:
+- Document ingestion for PDF, DOCX, CSV, and TXT is implemented.
+- The initial RAG pipeline is working.
+
+Pending tasks:
+- Complete incremental document upload.
+- Perform end-to-end testing.
+
+Blocker:
+- Incremental indexing needs to be validated.
+
+Action item:
+- Project team to test new document uploads and verify that previously indexed documents remain available.

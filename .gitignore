@@ -1,5 +1,25 @@
+# Environment and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
 venv/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Generated vector database
 vector_store/
+
+# Local upload state and application backups
+uploaded_documents_manifest.json
+app/streamlit_app_backup.py
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

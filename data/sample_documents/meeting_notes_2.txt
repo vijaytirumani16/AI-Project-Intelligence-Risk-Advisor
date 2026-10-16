@@ -1,0 +1,16 @@
+Project: Healthcare Management Application
+
+New Requirements:
+1. Add online appointment booking.
+2. Send appointment reminders to patients.
+3. Allow doctors to view patient appointment history.
+4. Complete the appointment booking module within two weeks.
+
+Current Risks:
+- SMS notification integration is not completed.
+- The development team has limited testing time.
+
+Action Items:
+- Complete SMS integration.
+- Test the appointment booking workflow.
+- Review the module with the project manager.

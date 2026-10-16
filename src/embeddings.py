@@ -1,25 +1,21 @@
 from sentence_transformers import SentenceTransformer
 
+_embedding_model = None
+
 
 def get_embedding_model():
-    """
-    Load and return the embedding model.
-    """
+    global _embedding_model
 
-    model = SentenceTransformer(
-        "all-MiniLM-L6-v2"
-    )
+    if _embedding_model is None:
+        _embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    return model
+    return _embedding_model
 
 
-def create_embeddings(chunks):
-    """
-    Convert text chunks into numerical embeddings.
-    """
-
+def generate_embeddings(texts):
     model = get_embedding_model()
+    return model.encode(texts)
 
-    embeddings = model.encode(chunks)
 
-    return embeddings
+def create_embeddings(texts):
+    return generate_embeddings(texts)
